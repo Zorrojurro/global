@@ -427,6 +427,66 @@ ul {
 }
 
 /* ===================================
+   Brands Strip (Below Hero)
+   =================================== */
+.brands-strip {
+    background: var(--primary-orange);
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.brands-strip-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.brands-strip-label {
+    font-weight: 700;
+    color: var(--white);
+    white-space: nowrap;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.brands-strip-carousel {
+    flex: 1;
+    overflow: hidden;
+}
+
+.brands-strip-track {
+    display: flex;
+    gap: 30px;
+    animation: stripScroll 20s linear infinite;
+}
+
+.strip-brand {
+    flex-shrink: 0;
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    backdrop-filter: blur(5px);
+}
+
+@keyframes stripScroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-130px * 11));
+    }
+}
+
+/* ===================================
    About Section
    =================================== */
 .about {
@@ -1194,7 +1254,7 @@ ul {
 
 @media (max-width: 768px) {
     :root {
-        --section-padding: 70px 0;
+        --section-padding: 60px 0;
     }
 
     .nav-menu {
@@ -1210,6 +1270,7 @@ ul {
         opacity: 0;
         transition: var(--transition-base);
         box-shadow: var(--shadow-lg);
+        z-index: 999;
     }
 
     .nav-menu.active {
@@ -1233,21 +1294,276 @@ ul {
         transform: rotate(-45deg) translate(7px, -6px);
     }
 
+    /* Hero Mobile */
+    .hero {
+        min-height: 90vh;
+        padding: 100px 15px 60px;
+    }
+
+    .hero-content {
+        padding: 0 10px;
+    }
+
+    .hero-badge {
+        padding: 8px 15px;
+        font-size: 0.75rem;
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+    }
+
     .hero-buttons {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        gap: 12px;
+        margin-bottom: 40px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        justify-content: center;
     }
 
     .hero-stats {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .stat-number {
+        font-size: 1.75rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+    }
+
+    .hero-scroll {
+        display: none;
+    }
+
+    /* Brands Strip Mobile */
+    .brands-strip {
+        padding: 12px 0;
+    }
+
+    .brands-strip-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .brands-strip-label {
+        font-size: 0.75rem;
+    }
+
+    .strip-brand {
+        padding: 6px 14px;
+        font-size: 0.75rem;
+    }
+
+    /* Section Headers Mobile */
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-tag {
+        padding: 6px 14px;
+        font-size: 0.75rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+
+    /* About Mobile */
+    .about-content h3 {
+        font-size: 1.35rem;
+    }
+
+    .feature-item {
+        padding: 15px;
+    }
+
+    .feature-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
+
+    .feature-text h4 {
+        font-size: 0.9rem;
+    }
+
+    .feature-text p {
+        font-size: 0.8rem;
+    }
+
+    .image-card {
+        padding: 40px 25px;
+    }
+
+    .image-card i {
+        font-size: 3rem;
+    }
+
+    /* Products Mobile */
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .product-card {
+        padding: 30px 20px;
+    }
+
+    .product-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .product-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .product-card p {
+        font-size: 0.85rem;
+    }
+
+    /* Brands Section Mobile */
+    .brands {
+        padding: 60px 0;
+    }
+
+    .brands-track {
+        gap: 15px;
+    }
+
+    .brand-card {
+        width: 130px;
+        height: 90px;
+        padding: 15px;
+    }
+
+    .brand-card img {
+        max-height: 40px;
+    }
+
+    .brand-card span {
+        font-size: 0.75rem;
+    }
+
+    .brand-logo-text {
+        font-size: 0.9rem;
+    }
+
+    /* Catalogue Mobile */
+    .catalogue-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .catalogue-card {
+        padding: 20px 15px;
+    }
+
+    .catalogue-brand {
+        width: 70px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .catalogue-card h3 {
+        font-size: 1rem;
+    }
+
+    .catalogue-card p {
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
+
+    .btn-catalogue {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    .catalogue-note {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        font-size: 0.85rem;
+    }
+
+    /* Contact Mobile */
+    .contact-grid {
         gap: 30px;
+    }
+
+    .info-card {
+        padding: 20px;
+    }
+
+    .info-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
+
+    .info-content h4 {
+        font-size: 0.9rem;
+    }
+
+    .info-content p {
+        font-size: 0.85rem;
+    }
+
+    .contact-form-wrapper {
+        padding: 25px 20px;
+    }
+
+    .contact-form h3 {
+        font-size: 1.25rem;
+        margin-bottom: 20px;
     }
 
     .form-row {
         grid-template-columns: 1fr;
     }
 
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 12px 14px;
+        font-size: 0.9rem;
+    }
+
+    .map-container {
+        padding: 12px;
+    }
+
+    .map-container iframe {
+        height: 180px;
+    }
+
+    /* Footer Mobile */
+    .footer {
+        padding: 50px 0 25px;
+    }
+
     .footer-grid {
         grid-template-columns: 1fr;
+        gap: 30px;
         text-align: center;
     }
 
@@ -1255,46 +1571,84 @@ ul {
         justify-content: center;
     }
 
-    .footer-contact p {
-        justify-content: center;
+    .footer-brand p {
+        font-size: 0.9rem;
     }
 
-    .catalogue-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    .footer-links h4,
+    .footer-contact h4 {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .footer-contact p {
+        justify-content: center;
+        font-size: 0.85rem;
+    }
+
+    .footer-bottom {
+        padding-top: 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem;
+    }
+
+    /* Back to Top Mobile */
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 480px) {
     .nav-logo span {
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .nav-logo i {
+        font-size: 1.25rem;
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 
     .stat-number {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
     }
 
     .section-title {
-        font-size: 1.75rem;
+        font-size: 1.35rem;
     }
 
-    .contact-form-wrapper {
-        padding: 25px;
+    /* Catalogue 1 column on very small screens */
+    .catalogue-grid {
+        grid-template-columns: 1fr;
     }
 
-    .brands-track {
-        gap: 20px;
+    .catalogue-card {
+        padding: 25px 20px;
     }
 
-    .brand-card {
-        width: 140px;
-        height: 100px;
+    .catalogue-brand {
+        width: 80px;
+        height: 65px;
+    }
+
+    /* Footer stacked */
+    .footer-links ul {
+        gap: 10px;
     }
 }
