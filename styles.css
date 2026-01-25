@@ -210,22 +210,22 @@ ul {
     z-index: 1000;
     width: calc(100% - 40px);
     max-width: 1100px;
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(25px) saturate(180%);
-    -webkit-backdrop-filter: blur(25px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 50px;
     box-shadow:
-        0 8px 32px rgba(0, 0, 0, 0.15),
-        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        0 8px 32px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
     transition: var(--transition-base);
 }
 
 .navbar.scrolled {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(15, 23, 42, 0.9);
     box-shadow:
-        0 12px 40px rgba(0, 0, 0, 0.2),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25);
+        0 12px 40px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .nav-container {
@@ -1237,9 +1237,9 @@ ul {
         top: 80px;
         left: 20px;
         right: 20px;
-        background: rgba(255, 255, 255, 0.15);
-        backdrop-filter: blur(25px) saturate(180%);
-        -webkit-backdrop-filter: blur(25px) saturate(180%);
+        background: rgba(15, 23, 42, 0.9);
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
         flex-direction: column;
         padding: 25px 30px;
         gap: 15px;
@@ -1247,9 +1247,9 @@ ul {
         opacity: 0;
         pointer-events: none;
         transition: var(--transition-base);
-        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
         z-index: 999;
-        border: 1px solid rgba(255, 255, 255, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.15);
         border-radius: 25px;
     }
 
