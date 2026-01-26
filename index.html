@@ -8,7 +8,7 @@
         content="Global Industrial Supplies - Your trusted supplier of industrial tools and equipment in Bengaluru, India. Quality hand tools, power tools, safety equipment, and more.">
     <meta name="keywords"
         content="industrial supplies, hand tools, power tools, safety equipment, Bengaluru, India, Stanley, Norton, Kristeel">
-    <title>Global Industrial Supplies | Industrial Tools & Equipment Supplier - Bengaluru</title>
+    <title>Global Industrial Supplies | Industrial Tools &amp; Equipment Supplier - Bengaluru</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -311,18 +311,30 @@
                     </div>
                 </div>
 
-                <!-- Norton Catalogue -->
-                <div class="catalogue-card">
+                <!-- Norton Catalogue with Dropdown -->
+                <div class="catalogue-card catalogue-dropdown" data-dropdown="norton">
                     <div class="catalogue-brand">
                         <img src="logos/NORTON.jpg" alt="Norton">
                     </div>
                     <h3>Norton</h3>
                     <p>Abrasives, grinding wheels, and cutting discs</p>
                     <div class="catalogue-actions">
-                        <a href="catalogue/NORTON CATALOG.pdf" target="_blank" class="btn btn-catalogue">
+                        <button class="btn btn-catalogue" onclick="toggleDropdown('norton')">
                             <i class="fas fa-file-pdf"></i>
-                            Download PDF
-                        </a>
+                            View Catalogues
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="catalogue-dropdown-menu" id="nortonDropdown">
+                            <a href="catalogue/NORTON CATALOG.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Main Catalog
+                            </a>
+                            <a href="catalogue/NORTON INDL RETAIL CATALOG.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Industrial Retail
+                            </a>
+                            <a href="catalogue/NORTON PAINT AND CP CATALOG.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Paint & CP
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -357,29 +369,43 @@
                 </div>
 
                 <!-- Korlay Catalogue with Dropdown -->
-                <div class="catalogue-card catalogue-dropdown">
+                <div class="catalogue-card catalogue-dropdown" data-dropdown="korlay">
                     <div class="catalogue-brand">
                         <img src="logos/KORLAY.png" alt="Korlay">
                     </div>
                     <h3>Korlay</h3>
                     <p>Industrial tools and equipment</p>
                     <div class="catalogue-actions">
-                        <button class="btn btn-catalogue" onclick="toggleKorlayDropdown()">
+                        <button class="btn btn-catalogue" onclick="toggleDropdown('korlay')">
                             <i class="fas fa-file-pdf"></i>
                             View Catalogues
                             <i class="fas fa-chevron-down dropdown-arrow"></i>
                         </button>
-                        <div class="korlay-dropdown" id="korlayDropdown">
-                            <a href="catalogue/KORLAY HFMD.pdf" target="_blank"><i class="fas fa-file-pdf"></i> HFMD</a>
-                            <a href="catalogue/KORLAY KGT.pdf" target="_blank"><i class="fas fa-file-pdf"></i> KGT</a>
-                            <a href="catalogue/KORLAY Nc3200.pdf" target="_blank"><i class="fas fa-file-pdf"></i>
-                                Nc3200</a>
-                            <a href="catalogue/KORLAY PC6100.pdf" target="_blank"><i class="fas fa-file-pdf"></i>
-                                PC6100</a>
-                            <a href="catalogue/KORLAY RMR.pdf" target="_blank"><i class="fas fa-file-pdf"></i> RMR</a>
-                            <a href="catalogue/KORLAY TP8P.pdf" target="_blank"><i class="fas fa-file-pdf"></i> TP8P</a>
-                            <a href="catalogue/KORLAY TPDB Plus Drill.pdf" target="_blank"><i
-                                    class="fas fa-file-pdf"></i> TPDB Plus Drill</a>
+                        <div class="catalogue-dropdown-menu" id="korlayDropdown">
+                            <a href="catalogue/KORLAY HFMD.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> HFMD
+                            </a>
+                            <a href="catalogue/KORLAY KGT.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> KGT
+                            </a>
+                            <a href="catalogue/KORLAY Nc3200.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Nc3200
+                            </a>
+                            <a href="catalogue/KORLAY PC6100.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> PC6100
+                            </a>
+                            <a href="catalogue/KORLAY RMR.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> RMR
+                            </a>
+                            <a href="catalogue/KORLAY TP8P.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> TP8P
+                            </a>
+                            <a href="catalogue/KORLAY TPDB Plus Drill.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> TPDB Plus Drill
+                            </a>
+                            <a href="catalogue/KORLAY TechNews Grade NC6310 - 6315.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> TechNews NC6310-6315
+                            </a>
                         </div>
                     </div>
                 </div>

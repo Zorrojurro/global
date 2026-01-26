@@ -312,26 +312,36 @@ if (heroSection) {
 }
 
 /**
- * Korlay Dropdown Toggle
+ * Generic Catalogue Dropdown Toggle
  */
-function toggleKorlayDropdown() {
-    const dropdown = document.getElementById('korlayDropdown');
+function toggleDropdown(brandName) {
+    const dropdown = document.getElementById(brandName + 'Dropdown');
     const catalogueCard = dropdown.closest('.catalogue-dropdown');
 
+    // Close all other dropdowns first
+    document.querySelectorAll('.catalogue-dropdown-menu.show').forEach(menu => {
+        if (menu.id !== brandName + 'Dropdown') {
+            menu.classList.remove('show');
+            menu.closest('.catalogue-dropdown').classList.remove('active');
+        }
+    });
+
+    // Toggle current dropdown
     dropdown.classList.toggle('show');
     catalogueCard.classList.toggle('active');
 }
 
 // Close dropdown when clicking outside
 document.addEventListener('click', function (e) {
-    const dropdown = document.getElementById('korlayDropdown');
-    const button = document.querySelector('.catalogue-dropdown button');
+    const dropdowns = document.querySelectorAll('.catalogue-dropdown');
 
-    if (dropdown && !dropdown.contains(e.target) && !button.contains(e.target)) {
-        dropdown.classList.remove('show');
-        const catalogueCard = dropdown.closest('.catalogue-dropdown');
-        if (catalogueCard) {
-            catalogueCard.classList.remove('active');
+    dropdowns.forEach(card => {
+        const button = card.querySelector('button');
+        const menu = card.querySelector('.catalogue-dropdown-menu');
+
+        if (menu && button && !card.contains(e.target)) {
+            menu.classList.remove('show');
+            card.classList.remove('active');
         }
-    }
+    });
 });

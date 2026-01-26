@@ -898,9 +898,9 @@ ul {
     font-size: 1.25rem;
 }
 
-/* Korlay Dropdown */
+/* Catalogue Dropdown System */
 .catalogue-dropdown {
-    position: relative;
+    overflow: visible;
 }
 
 .catalogue-actions {
@@ -917,28 +917,23 @@ ul {
     transform: rotate(180deg);
 }
 
-.korlay-dropdown {
+.catalogue-dropdown-menu {
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--white);
+    background: var(--off-white);
     border: 1px solid var(--light-grey);
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-lg);
-    min-width: 200px;
-    z-index: 100;
-    margin-top: 10px;
+    margin-top: 12px;
     overflow: hidden;
+    max-height: 280px;
+    overflow-y: auto;
 }
 
-.korlay-dropdown.show {
+.catalogue-dropdown-menu.show {
     display: block;
-    animation: fadeIn 0.3s ease;
+    animation: dropdownFadeIn 0.25s ease;
 }
 
-.korlay-dropdown a {
+.catalogue-dropdown-menu a {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -948,35 +943,56 @@ ul {
     font-weight: 500;
     border-bottom: 1px solid var(--light-grey);
     transition: var(--transition-base);
+    background: var(--white);
 }
 
-.korlay-dropdown a:last-child {
+.catalogue-dropdown-menu a:last-child {
     border-bottom: none;
 }
 
-.korlay-dropdown a:hover {
+.catalogue-dropdown-menu a:hover {
     background: var(--primary-orange);
     color: var(--white);
 }
 
-.korlay-dropdown a i {
+.catalogue-dropdown-menu a i {
     color: var(--primary-orange);
     font-size: 0.85rem;
+    flex-shrink: 0;
 }
 
-.korlay-dropdown a:hover i {
+.catalogue-dropdown-menu a:hover i {
     color: var(--white);
 }
 
-@keyframes fadeIn {
+/* Custom scrollbar for dropdown */
+.catalogue-dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.catalogue-dropdown-menu::-webkit-scrollbar-track {
+    background: var(--light-grey);
+    border-radius: 3px;
+}
+
+.catalogue-dropdown-menu::-webkit-scrollbar-thumb {
+    background: var(--steel-grey);
+    border-radius: 3px;
+}
+
+.catalogue-dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-orange);
+}
+
+@keyframes dropdownFadeIn {
     from {
         opacity: 0;
-        transform: translateX(-50%) translateY(-10px);
+        transform: translateY(-8px);
     }
 
     to {
         opacity: 1;
-        transform: translateX(-50%) translateY(0);
+        transform: translateY(0);
     }
 }
 
@@ -1622,6 +1638,17 @@ ul {
 
     .btn-catalogue {
         padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    /* Dropdown menu mobile styles */
+    .catalogue-dropdown-menu {
+        margin-top: 10px;
+        max-height: 200px;
+    }
+
+    .catalogue-dropdown-menu a {
+        padding: 10px 14px;
         font-size: 0.8rem;
     }
 
