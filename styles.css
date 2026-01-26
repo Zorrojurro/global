@@ -1439,8 +1439,8 @@ ul {
 
     /* Hero Mobile */
     .hero {
-        min-height: 90vh;
-        padding: 100px 15px 60px;
+        min-height: auto;
+        padding: 100px 15px 40px;
     }
 
     .hero-content {
@@ -1459,19 +1459,52 @@ ul {
 
     .hero-subtitle {
         font-size: 0.95rem;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .hero-buttons {
         flex-direction: column;
         align-items: stretch;
         gap: 12px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .hero-buttons .btn {
         width: 100%;
         justify-content: center;
+    }
+
+    /* Hero Brands Carousel Mobile */
+    .hero-brands {
+        margin-top: 10px;
+    }
+
+    .hero-brands-label {
+        font-size: 0.75rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-brand-card {
+        width: 100px;
+        height: 70px;
+        padding: 10px;
+    }
+
+    .hero-brand-card img {
+        max-height: 28px;
+        max-width: 60px;
+    }
+
+    .hero-brand-card span {
+        font-size: 0.65rem;
+    }
+
+    .hero-brands-track {
+        gap: 12px;
+    }
+
+    .hero-scroll {
+        display: none;
     }
 
     .hero-stats {
