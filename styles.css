@@ -474,11 +474,11 @@ ul {
 
 @keyframes heroScroll {
     0% {
-        transform: translateX(0);
+        transform: translateX(0) translateZ(0);
     }
 
     100% {
-        transform: translateX(calc(-150px * 9));
+        transform: translateX(calc(-150px * 10)) translateZ(0);
     }
 }
 
