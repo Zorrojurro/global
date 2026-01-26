@@ -310,3 +310,28 @@ const heroSection = document.querySelector('.hero');
 if (heroSection) {
     heroObserver.observe(heroSection);
 }
+
+/**
+ * Korlay Dropdown Toggle
+ */
+function toggleKorlayDropdown() {
+    const dropdown = document.getElementById('korlayDropdown');
+    const catalogueCard = dropdown.closest('.catalogue-dropdown');
+
+    dropdown.classList.toggle('show');
+    catalogueCard.classList.toggle('active');
+}
+
+// Close dropdown when clicking outside
+document.addEventListener('click', function (e) {
+    const dropdown = document.getElementById('korlayDropdown');
+    const button = document.querySelector('.catalogue-dropdown button');
+
+    if (dropdown && !dropdown.contains(e.target) && !button.contains(e.target)) {
+        dropdown.classList.remove('show');
+        const catalogueCard = dropdown.closest('.catalogue-dropdown');
+        if (catalogueCard) {
+            catalogueCard.classList.remove('active');
+        }
+    }
+});

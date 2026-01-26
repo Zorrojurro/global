@@ -107,9 +107,13 @@
                             <img src="logos/E_CHAIN.png" alt="E-Chain">
                             <span>E-Chain</span>
                         </div>
-                        <div class="hero-brand-card hero-brand-text">
-                            <span class="brand-text">TOOL TECH</span>
+                        <div class="hero-brand-card">
+                            <img src="logos/TOOL_TECH.png" alt="Tool Tech">
                             <span>Tool Tech</span>
+                        </div>
+                        <div class="hero-brand-card">
+                            <img src="logos/RR Brand.jpg" alt="RR Brand">
+                            <span>RR Brand</span>
                         </div>
                         <div class="hero-brand-card hero-brand-text">
                             <span class="brand-text">MITTAL</span>
@@ -129,8 +133,12 @@
                             <span>Kristeel</span>
                         </div>
                         <div class="hero-brand-card">
-                            <img src="logos/Indian_Tools.png" alt="Indian Tools">
-                            <span>Indian Tools</span>
+                            <img src="logos/KORLAY.png" alt="Korlay">
+                            <span>Korlay</span>
+                        </div>
+                        <div class="hero-brand-card">
+                            <img src="logos/TOOL_TECH.png" alt="Tool Tech">
+                            <span>Tool Tech</span>
                         </div>
                     </div>
                 </div>
@@ -348,18 +356,31 @@
                     </div>
                 </div>
 
-                <!-- Korlay Catalogue -->
-                <div class="catalogue-card">
+                <!-- Korlay Catalogue with Dropdown -->
+                <div class="catalogue-card catalogue-dropdown">
                     <div class="catalogue-brand">
                         <img src="logos/KORLAY.png" alt="Korlay">
                     </div>
                     <h3>Korlay</h3>
                     <p>Industrial tools and equipment</p>
                     <div class="catalogue-actions">
-                        <a href="catalogue/KORLAY KGT.pdf" target="_blank" class="btn btn-catalogue">
+                        <button class="btn btn-catalogue" onclick="toggleKorlayDropdown()">
                             <i class="fas fa-file-pdf"></i>
-                            Download PDF
-                        </a>
+                            View Catalogues
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="korlay-dropdown" id="korlayDropdown">
+                            <a href="catalogue/KORLAY HFMD.pdf" target="_blank"><i class="fas fa-file-pdf"></i> HFMD</a>
+                            <a href="catalogue/KORLAY KGT.pdf" target="_blank"><i class="fas fa-file-pdf"></i> KGT</a>
+                            <a href="catalogue/KORLAY Nc3200.pdf" target="_blank"><i class="fas fa-file-pdf"></i>
+                                Nc3200</a>
+                            <a href="catalogue/KORLAY PC6100.pdf" target="_blank"><i class="fas fa-file-pdf"></i>
+                                PC6100</a>
+                            <a href="catalogue/KORLAY RMR.pdf" target="_blank"><i class="fas fa-file-pdf"></i> RMR</a>
+                            <a href="catalogue/KORLAY TP8P.pdf" target="_blank"><i class="fas fa-file-pdf"></i> TP8P</a>
+                            <a href="catalogue/KORLAY TPDB Plus Drill.pdf" target="_blank"><i
+                                    class="fas fa-file-pdf"></i> TPDB Plus Drill</a>
+                        </div>
                     </div>
                 </div>
 
@@ -395,13 +416,28 @@
 
                 <!-- Tool Tech Catalogue -->
                 <div class="catalogue-card">
-                    <div class="catalogue-brand catalogue-brand-text">
-                        <span>TOOL TECH</span>
+                    <div class="catalogue-brand">
+                        <img src="logos/TOOL_TECH.png" alt="Tool Tech">
                     </div>
                     <h3>Tool Tech</h3>
                     <p>Professional grade tools and accessories</p>
                     <div class="catalogue-actions">
                         <a href="catalogue/ToolTech Brochure.pdf" target="_blank" class="btn btn-catalogue">
+                            <i class="fas fa-file-pdf"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RR Brand Catalogue -->
+                <div class="catalogue-card">
+                    <div class="catalogue-brand">
+                        <img src="logos/RR Brand.jpg" alt="RR Brand">
+                    </div>
+                    <h3>RR Brand</h3>
+                    <p>Industrial hardware and tools</p>
+                    <div class="catalogue-actions">
+                        <a href="catalogue/RR Product Catalog.pdf" target="_blank" class="btn btn-catalogue">
                             <i class="fas fa-file-pdf"></i>
                             Download PDF
                         </a>

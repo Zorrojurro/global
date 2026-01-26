@@ -898,6 +898,88 @@ ul {
     font-size: 1.25rem;
 }
 
+/* Korlay Dropdown */
+.catalogue-dropdown {
+    position: relative;
+}
+
+.catalogue-actions {
+    position: relative;
+}
+
+.dropdown-arrow {
+    margin-left: 8px;
+    font-size: 0.8rem;
+    transition: var(--transition-base);
+}
+
+.catalogue-dropdown.active .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.korlay-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--white);
+    border: 1px solid var(--light-grey);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    min-width: 200px;
+    z-index: 100;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.korlay-dropdown.show {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+.korlay-dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    color: var(--navy);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--light-grey);
+    transition: var(--transition-base);
+}
+
+.korlay-dropdown a:last-child {
+    border-bottom: none;
+}
+
+.korlay-dropdown a:hover {
+    background: var(--primary-orange);
+    color: var(--white);
+}
+
+.korlay-dropdown a i {
+    color: var(--primary-orange);
+    font-size: 0.85rem;
+}
+
+.korlay-dropdown a:hover i {
+    color: var(--white);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
 /* ===================================
    Contact Section
    =================================== */
