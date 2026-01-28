@@ -220,32 +220,26 @@ ul {
 }
 
 /* ===================================
-   Navigation - Floating Glass Island
+   Navigation - Standard Fixed Navbar
    =================================== */
 .navbar {
     position: fixed;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
-    width: calc(100% - 40px);
-    max-width: 1100px;
-    background: rgba(15, 23, 42, 0.75);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 50px;
-    box-shadow:
-        0 8px 32px rgba(0, 0, 0, 0.25),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    width: 100%;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     transition: var(--transition-base);
 }
 
 .navbar.scrolled {
-    background: rgba(15, 23, 42, 0.9);
-    box-shadow:
-        0 12px 40px rgba(0, 0, 0, 0.3),
-        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    background: rgba(15, 23, 42, 0.98);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
@@ -869,6 +863,8 @@ ul {
     text-align: center;
     border: 1px solid var(--light-grey);
     transition: var(--transition-base);
+    display: flex;
+    flex-direction: column;
 }
 
 .catalogue-card:hover {
@@ -905,6 +901,8 @@ ul {
     color: var(--steel-grey);
     font-size: 0.9rem;
     margin-bottom: 20px;
+    flex-grow: 1;
+    min-height: 40px;
 }
 
 .catalogue-note {
@@ -934,6 +932,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: auto;
 }
 
 .dropdown-arrow {
