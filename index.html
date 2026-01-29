@@ -768,7 +768,7 @@
                     </div>
                 </div>
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xpwzgkqr" method="POST">
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
                         <h3>Send us a Message</h3>
                         <div class="form-group">
                             <label for="name">Your Name</label>
@@ -799,9 +799,12 @@
                             <textarea id="message" name="message" rows="4"
                                 placeholder="Tell us about your requirements..." required></textarea>
                         </div>
-                        <input type="hidden" name="_subject"
-                            value="New Contact Form Submission - Global Industrial Supplies">
-                        <input type="hidden" name="_next" value="https://zorrojurro.github.io/global/?submitted=true">
+                        <!-- Web3Forms Configuration -->
+                        <input type="hidden" name="access_key" value="041e2627-d2f8-4415-8eec-a8c407831163">
+                        <input type="hidden" name="subject" value="New Inquiry from Global Industrial Supplies Website">
+                        <input type="hidden" name="from_name" value="Global Industrial Supplies Website">
+                        <input type="hidden" name="redirect"
+                            value="https://zorrojurro.github.io/global/?submitted=true">
                         <div class="form-buttons">
                             <button type="submit" class="btn btn-primary btn-submit">
                                 <i class="fas fa-envelope"></i>
