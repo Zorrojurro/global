@@ -1237,6 +1237,38 @@ ul {
     font-size: 1.05rem;
 }
 
+.form-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-whatsapp {
+    background: #25D366;
+    color: var(--white);
+}
+
+.btn-whatsapp:hover {
+    background: #20BA5C;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+}
+
+.form-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--steel-grey);
+    margin-top: 10px;
+}
+
+.form-note i {
+    color: var(--primary-orange);
+}
+
 /* ===================================
    Footer
    =================================== */

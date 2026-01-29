@@ -98,33 +98,61 @@ function initContactForm() {
     const contactForm = document.getElementById('contactForm');
 
     if (contactForm) {
+        // Handle form submission (for Formspree)
         contactForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            // Get form data
-            const formData = new FormData(contactForm);
-            const data = Object.fromEntries(formData.entries());
-
-            // Show loading state
-            const submitBtn = contactForm.querySelector('.btn-submit');
-            const originalText = submitBtn.innerHTML;
+            // Don't prevent default - let Formspree handle it
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitBtn.disabled = true;
-
-            // Simulate form submission (replace with actual API call)
-            setTimeout(function () {
-                // Success message
-                showNotification('Message sent successfully! We will contact you soon.', 'success');
-
-                // Reset form
-                contactForm.reset();
-
-                // Reset button
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-            }, 1500);
         });
+
+        // Check if returning from successful submission
+        if (window.location.search.includes('submitted=true')) {
+            showNotification('Message sent successfully! We will contact you soon.', 'success');
+            // Clean URL
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
     }
+}
+
+/**
+ * Send form data to WhatsApp
+ */
+function sendToWhatsApp() {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value.trim();
+
+    // Validate required fields
+    if (!name || !email || !message) {
+        showNotification('Please fill in all required fields (Name, Email, and Message)', 'error');
+        return;
+    }
+
+    // Compose WhatsApp message
+    const whatsappMessage = `*New Inquiry from Global Industrial Supplies Website*
+
+*Name:* ${name}
+*Email:* ${email}
+*Phone:* ${phone || 'Not provided'}
+*Subject:* ${subject || 'General Inquiry'}
+
+*Message:*
+${message}`;
+
+    // WhatsApp number (remove + and spaces)
+    const whatsappNumber = '919880169228';
+
+    // Create WhatsApp URL
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+    // Open WhatsApp in new tab
+    window.open(whatsappURL, '_blank');
+
+    // Show success message
+    showNotification('Opening WhatsApp... Your message is ready to send!', 'success');
 }
 
 /**
@@ -140,8 +168,19 @@ function showNotification(message, type = 'info') {
     // Create notification element
     const notification = document.createElement('div');
     notification.className = `notification-toast ${type}`;
+
+    let icon = 'fa-info-circle';
+    let bgColor = '#3B82F6';
+    if (type === 'success') {
+        icon = 'fa-check-circle';
+        bgColor = '#10B981';
+    } else if (type === 'error') {
+        icon = 'fa-exclamation-circle';
+        bgColor = '#EF4444';
+    }
+
     notification.innerHTML = `
-        <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-info-circle'}"></i>
+        <i class="fas ${icon}"></i>
         <span>${message}</span>
     `;
 
@@ -151,7 +190,7 @@ function showNotification(message, type = 'info') {
         bottom: 100px;
         right: 30px;
         padding: 16px 24px;
-        background: ${type === 'success' ? '#10B981' : '#3B82F6'};
+        background: ${bgColor};
         color: white;
         border-radius: 12px;
         display: flex;
