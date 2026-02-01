@@ -98,20 +98,37 @@ function initContactForm() {
     const contactForm = document.getElementById('contactForm');
 
     if (contactForm) {
-        // Handle form submission (for Formspree)
-        contactForm.addEventListener('submit', function (e) {
-            // Don't prevent default - let Formspree handle it
+        contactForm.addEventListener('submit', async function (e) {
+            e.preventDefault(); // Prevent redirect
+
             const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitBtn.disabled = true;
-        });
 
-        // Check if returning from successful submission
-        if (window.location.search.includes('submitted=true')) {
-            showNotification('Message sent successfully! We will contact you soon.', 'success');
-            // Clean URL
-            window.history.replaceState({}, document.title, window.location.pathname);
-        }
+            try {
+                const formData = new FormData(contactForm);
+                const response = await fetch(contactForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    showNotification('Message sent successfully! We will contact you soon.', 'success');
+                    contactForm.reset();
+                } else {
+                    throw new Error('Failed to send');
+                }
+            } catch (error) {
+                showNotification('Failed to send message. Please try WhatsApp or call us directly.', 'error');
+            } finally {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }
+        });
     }
 }
 
@@ -131,28 +148,26 @@ function sendToWhatsApp() {
         return;
     }
 
-    // Compose WhatsApp message
-    const whatsappMessage = `*New Inquiry from Global Industrial Supplies Website*
+    // Compose cleaner WhatsApp message
+    const whatsappMessage = `Hi, I'm ${name} and I'm reaching out from your website.
 
-*Name:* ${name}
-*Email:* ${email}
-*Phone:* ${phone || 'Not provided'}
-*Subject:* ${subject || 'General Inquiry'}
+${subject ? `Regarding: ${subject}` : ''}
 
-*Message:*
-${message}`;
+${message}
 
-    // WhatsApp number (remove + and spaces)
+---
+Contact: ${email}${phone ? ` | ${phone}` : ''}`;
+
+    // WhatsApp number
     const whatsappNumber = '919880169228';
 
     // Create WhatsApp URL
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-    // Open WhatsApp in new tab
+    // Open WhatsApp
     window.open(whatsappURL, '_blank');
 
-    // Show success message
-    showNotification('Opening WhatsApp... Your message is ready to send!', 'success');
+    showNotification('Opening WhatsApp...', 'success');
 }
 
 /**
