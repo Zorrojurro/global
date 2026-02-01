@@ -196,12 +196,6 @@ ul {
     background: var(--primary-orange);
 }
 
-.btn-catalogue.disabled {
-    background: var(--steel-light);
-    cursor: not-allowed;
-    opacity: 0.7;
-}
-
 /* Price List Button - Purple/Violet theme to distinguish from catalogue */
 .btn-pricelist {
     background: linear-gradient(135deg, #7C3AED 0%, #8B5CF6 100%);
@@ -219,10 +213,13 @@ ul {
     box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
 }
 
-.btn-pricelist.disabled {
-    background: var(--steel-light);
+.btn-pricelist.disabled,
+.btn-catalogue.disabled {
+    background: var(--white);
+    color: var(--steel-grey);
+    border: 2px solid var(--light-grey);
     cursor: not-allowed;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 /* ===================================
