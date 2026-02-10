@@ -550,10 +550,19 @@
                     <h3>CP Gratex</h3>
                     <p>Premium industrial solutions</p>
                     <div class="catalogue-actions">
-                        <a href="catalogue/CP GRATEX CATALOG.pdf" target="_blank" class="btn btn-catalogue">
+                        <button class="btn btn-catalogue" onclick="toggleDropdown('CP_GRATEX')">
                             <i class="fas fa-book"></i>
-                            View Catalogue
-                        </a>
+                            View Catalogues
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="catalogue-dropdown-menu" id="CP_GRATEXDropdown">
+                            <a href="catalogue/CP GRATEX CATALOG.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Deburring Tools
+                            </a>
+                            <a href="catalogue/CP GRATEX Catalogue 2.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Hex-Hold Tools
+                            </a>
+                        </div>
                         <a href="price list/CP_GRATEX Pricelist.pdf" target="_blank" class="btn btn-pricelist">
                             <i class="fas fa-tags"></i>
                             View Price List
