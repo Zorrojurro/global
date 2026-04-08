@@ -495,17 +495,32 @@
             </div>
             <div class="catalogue-grid">
                 <!-- Stanley -->
-                <div class="catalogue-card">
+                <div class="catalogue-card catalogue-dropdown" data-dropdown="stanley">
                     <div class="catalogue-brand">
                         <img src="logos/Stanley.png" alt="Stanley">
                     </div>
                     <h3>Stanley / Dewalt</h3>
                     <p>Hand Tools, power tools, and measuring equipment</p>
                     <div class="catalogue-actions">
-                        <a href="catalogue/Stanley Catalog.pdf" target="_blank" class="btn btn-catalogue">
+                        <button class="btn btn-catalogue" onclick="toggleDropdown('stanley')">
                             <i class="fas fa-book"></i>
-                            View Catalogue
-                        </a>
+                            View Catalogues
+                            <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </button>
+                        <div class="catalogue-dropdown-menu" id="stanleyDropdown">
+                            <a href="catalogue/Stanley Catalog.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Stanley Catalog
+                            </a>
+                            <a href="catalogue/Dewalt make power tools catalog.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Dewalt Power Tools
+                            </a>
+                            <a href="catalogue/Stanley and Max power tools catalog.pdf" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Stanley &amp; Max Power Tools
+                            </a>
+                            <a href="catalogue/Black &amp; Decker power tools catalog.PDF" target="_blank">
+                                <i class="fas fa-file-pdf"></i> Black &amp; Decker Power Tools
+                            </a>
+                        </div>
                         <a href="price list/STANLEY HTS Pricelist.pdf" target="_blank" class="btn btn-pricelist">
                             <i class="fas fa-tags"></i>
                             View Price List
