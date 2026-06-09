@@ -3,5 +3,8 @@
     "api/ask.js": {
       "maxDuration": 30
     }
-  }
+  },
+  "rewrites": [
+    { "source": "/assistant", "destination": "/assistant.html" }
+  ]
 }
