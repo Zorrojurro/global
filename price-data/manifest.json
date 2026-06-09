@@ -1,0 +1,104 @@
+{
+  "addison": {
+    "hash": "8e9cd69504e44ffbcc2c36057e2eb013",
+    "brandName": "Addison",
+    "sourceFile": "Addison_Price_List.pdf",
+    "extractedAt": "2026-06-09T16:48:12.413Z"
+  },
+  "addison-part-2": {
+    "hash": "03a2dc634b43eb7e7ab75501930f5822",
+    "brandName": "Addison (Part 2)",
+    "sourceFile": "Addison_Price_List_2.pdf",
+    "extractedAt": "2026-06-09T16:48:13.649Z"
+  },
+  "carbotec": {
+    "hash": "ed9935e171f1e4e2b2d3bdb92ee203cf",
+    "brandName": "CarboTec",
+    "sourceFile": "Carbotec Endmill Pricelist.pdf",
+    "extractedAt": "2026-06-09T16:48:16.571Z"
+  },
+  "cp-gratex": {
+    "hash": "281111824d82b4f6d7772055eb9b7919",
+    "brandName": "CP Gratex",
+    "sourceFile": "CP_GRATEX Pricelist.pdf",
+    "extractedAt": "2026-06-09T16:48:16.644Z"
+  },
+  "craft-tech": {
+    "hash": "bad928673e7c2e2c7855ea6d7a166940",
+    "brandName": "Craft Tech",
+    "sourceFile": "CRAFT_TECH_PRICELIST.pdf",
+    "extractedAt": "2026-06-09T16:48:16.850Z"
+  },
+  "emkay-roll-taps": {
+    "hash": "95ede916962f3a9218d54ff8d9540283",
+    "brandName": "Emkay (Roll Taps)",
+    "sourceFile": "Emakay Roll Taps Price List.pdf",
+    "extractedAt": "2026-06-09T16:48:16.982Z"
+  },
+  "emkay-hss-taps": {
+    "hash": "ae4915243598769ee1c551e52ce4e892",
+    "brandName": "Emkay (HSS Taps)",
+    "sourceFile": "Emkay HSS Taps Price List.pdf",
+    "extractedAt": "2026-06-09T16:48:17.043Z"
+  },
+  "emkay-hss-e-taps": {
+    "hash": "3a39634d9ae357205a1c5a75b7be753c",
+    "brandName": "Emkay (HSS-E Taps)",
+    "sourceFile": "Emkay HSS-E Taps Price List.pdf",
+    "extractedAt": "2026-06-09T16:48:17.184Z"
+  },
+  "indian-tools": {
+    "hash": "dbeeb1fea9f8eecc0595a807040c1f1d",
+    "brandName": "Indian Tools",
+    "sourceFile": "INDIAN_TOOLS_PRICE_LIST.pdf",
+    "extractedAt": "2026-06-09T16:48:19.339Z"
+  },
+  "kristeel": {
+    "hash": "a87a4b30659642274b6926227d7d2638",
+    "brandName": "Kristeel",
+    "sourceFile": "Kristeel Price List .pdf",
+    "extractedAt": "2026-06-09T16:48:20.285Z"
+  },
+  "miranda-dormer": {
+    "hash": "692bf9a1c49d1813d1bdd4c069c5e344",
+    "brandName": "Miranda / Dormer",
+    "sourceFile": "Miranda Price list.pdf",
+    "extractedAt": "2026-06-09T16:48:21.605Z"
+  },
+  "mittal-files-tools": {
+    "hash": "33531ef07fef7915c4d81799a7ae1c3b",
+    "brandName": "Mittal Files & Tools",
+    "sourceFile": "Mittal Files & Tools Price List.pdf",
+    "extractedAt": "2026-06-09T16:48:21.711Z"
+  },
+  "norton": {
+    "hash": "8c29923f8fa0db5462b6cfa78e9051fb",
+    "brandName": "Norton",
+    "sourceFile": "NORTON PRICE LIST.pdf",
+    "extractedAt": "2026-06-09T16:48:21.740Z"
+  },
+  "rr-brand-cutting-tools": {
+    "hash": "eaa1aa02e92fb2fa7b3ad670b85ca6fd",
+    "brandName": "RR Brand (Cutting Tools)",
+    "sourceFile": "RR Cutting Tools Price List.pdf",
+    "extractedAt": "2026-06-09T16:48:22.027Z"
+  },
+  "stanley": {
+    "hash": "2e2fd1d638ecd1e81de7e9f5bbb1bafb",
+    "brandName": "Stanley",
+    "sourceFile": "STANLEY HTS Pricelist.pdf",
+    "extractedAt": "2026-06-09T16:48:26.402Z"
+  },
+  "totem": {
+    "hash": "ccea9aa7104e28b7b18c8627df2869d2",
+    "brandName": "Totem",
+    "sourceFile": "TOTEM_HSS_TAPS_Price_List.pdf",
+    "extractedAt": "2026-06-09T16:48:26.937Z"
+  },
+  "tower-tools": {
+    "hash": "37333214782826bf715d5234afea0902",
+    "brandName": "Tower Tools",
+    "sourceFile": "Tower Price list.pdf",
+    "extractedAt": "2026-06-09T16:48:27.118Z"
+  }
+}
