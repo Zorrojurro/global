@@ -297,11 +297,17 @@ function initScrollAnimations() {
 }
 
 /**
- * Pause brand carousel on hover
+ * Hero brand carousel: clone items for seamless infinite loop, pause on hover
  */
 document.addEventListener('DOMContentLoaded', function () {
-    const brandsTrack = document.querySelector('.brands-track');
-    const brandsCarousel = document.querySelector('.brands-carousel');
+    const brandsTrack = document.querySelector('.hero-brands-track');
+    const brandsCarousel = document.querySelector('.hero-brands-carousel');
+
+    if (brandsTrack) {
+        Array.from(brandsTrack.children).forEach(card => {
+            brandsTrack.appendChild(card.cloneNode(true));
+        });
+    }
 
     if (brandsCarousel && brandsTrack) {
         brandsCarousel.addEventListener('mouseenter', function () {
@@ -313,57 +319,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
-/**
- * Product card category filtering (for future use)
- */
-function filterProducts(category) {
-    const productCards = document.querySelectorAll('.product-card');
-
-    productCards.forEach(card => {
-        if (category === 'all' || card.dataset.category === category) {
-            card.style.display = 'block';
-            card.classList.add('fade-in', 'visible');
-        } else {
-            card.style.display = 'none';
-        }
-    });
-}
-
-/**
- * Counter animation for stats
- */
-function animateCounter(element, target, duration = 2000) {
-    let start = 0;
-    const increment = target / (duration / 16);
-
-    function updateCounter() {
-        start += increment;
-        if (start < target) {
-            element.textContent = Math.floor(start);
-            requestAnimationFrame(updateCounter);
-        } else {
-            element.textContent = target;
-        }
-    }
-
-    updateCounter();
-}
-
-// Initialize counters when hero section is visible
-const heroObserver = new IntersectionObserver(function (entries) {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            // Animate stats if needed
-            heroObserver.unobserve(entry.target);
-        }
-    });
-}, { threshold: 0.5 });
-
-const heroSection = document.querySelector('.hero');
-if (heroSection) {
-    heroObserver.observe(heroSection);
-}
 
 /**
  * Generic Catalogue Dropdown Toggle
