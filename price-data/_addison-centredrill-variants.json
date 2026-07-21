@@ -1,0 +1,282 @@
+[
+  {
+    "price": "4097.50",
+    "sku": "ADD-CD-1x3.15-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø1 × 3.15mm (OAL 32)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "4794.90",
+    "sku": "ADD-CD-1x3.15-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø1 × 3.15mm (OAL 32)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "4097.50",
+    "sku": "ADD-CD-1.25x3.15-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø1.25 × 3.15mm (OAL 32)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "4794.90",
+    "sku": "ADD-CD-1.25x3.15-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø1.25 × 3.15mm (OAL 32)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "4144.80",
+    "sku": "ADD-CD-2x4.00-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø2 × 4.00mm (OAL 36)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "4849.90",
+    "sku": "ADD-CD-2x4.00-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø2 × 4.00mm (OAL 36)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "4170.10",
+    "sku": "ADD-CD-2.00x5.00-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø2.00 × 5.00mm (OAL 40)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "4885.10",
+    "sku": "ADD-CD-2.00x5.00-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø2.00 × 5.00mm (OAL 40)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "5657.30",
+    "sku": "ADD-CD-3x6.30-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø3 × 6.30mm (OAL 45)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "6805.70",
+    "sku": "ADD-CD-3x6.30-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø3 × 6.30mm (OAL 45)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "6703.40",
+    "sku": "ADD-CD-3.15x8.00-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø3.15 × 8.00mm (OAL 50)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "7848.50",
+    "sku": "ADD-CD-3.15x8.00-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø3.15 × 8.00mm (OAL 50)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "8864.90",
+    "sku": "ADD-CD-4x10.00-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø4 × 10.00mm (OAL 56)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "10012.20",
+    "sku": "ADD-CD-4x10.00-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø4 × 10.00mm (OAL 56)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "13830.30",
+    "sku": "ADD-CD-5.00x12.50-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø5.00 × 12.50mm (OAL 63)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "15248.20",
+    "sku": "ADD-CD-5.00x12.50-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø5.00 × 12.50mm (OAL 63)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "18883.70",
+    "sku": "ADD-CD-6x16.00-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø6 × 16.00mm (OAL 71)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "20298.30",
+    "sku": "ADD-CD-6x16.00-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø6 × 16.00mm (OAL 71)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  },
+  {
+    "price": "29983.80",
+    "sku": "ADD-CD-8.00x20.00-U",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø8.00 × 20.00mm (OAL 80)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "Uncoated"
+      }
+    ]
+  },
+  {
+    "price": "33391.60",
+    "sku": "ADD-CD-8.00x20.00-C",
+    "optionValues": [
+      {
+        "optionName": "Size",
+        "name": "Ø8.00 × 20.00mm (OAL 80)"
+      },
+      {
+        "optionName": "Coating",
+        "name": "TiAlN Coated"
+      }
+    ]
+  }
+]

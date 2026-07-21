@@ -1,0 +1,1456 @@
+{
+  "brand": "Stanley",
+  "sourceFile": "STANLEY HTS Pricelist.pdf",
+  "extractedAt": "2026-06-20T17:36:02.420Z",
+  "pageCount": 116,
+  "pages": [
+    {
+      "page": 1,
+      "rows": []
+    },
+    {
+      "page": 2,
+      "rows": []
+    },
+    {
+      "page": 3,
+      "rows": []
+    },
+    {
+      "page": 4,
+      "rows": []
+    },
+    {
+      "page": 5,
+      "rows": []
+    },
+    {
+      "page": 6,
+      "rows": []
+    },
+    {
+      "page": 7,
+      "rows": []
+    },
+    {
+      "page": 8,
+      "rows": []
+    },
+    {
+      "page": 9,
+      "rows": []
+    },
+    {
+      "page": 10,
+      "rows": []
+    },
+    {
+      "page": 11,
+      "rows": []
+    },
+    {
+      "page": 12,
+      "rows": []
+    },
+    {
+      "page": 13,
+      "rows": []
+    },
+    {
+      "page": 14,
+      "rows": []
+    },
+    {
+      "page": 15,
+      "rows": []
+    },
+    {
+      "page": 16,
+      "rows": []
+    },
+    {
+      "page": 17,
+      "rows": []
+    },
+    {
+      "page": 18,
+      "rows": []
+    },
+    {
+      "page": 19,
+      "rows": []
+    },
+    {
+      "page": 20,
+      "rows": []
+    },
+    {
+      "page": 21,
+      "rows": []
+    },
+    {
+      "page": 22,
+      "rows": []
+    },
+    {
+      "page": 23,
+      "rows": []
+    },
+    {
+      "page": 24,
+      "rows": []
+    },
+    {
+      "page": 25,
+      "rows": []
+    },
+    {
+      "page": 26,
+      "rows": []
+    },
+    {
+      "page": 27,
+      "rows": []
+    },
+    {
+      "page": 28,
+      "rows": []
+    },
+    {
+      "page": 29,
+      "rows": []
+    },
+    {
+      "page": 30,
+      "rows": []
+    },
+    {
+      "page": 31,
+      "rows": []
+    },
+    {
+      "page": 32,
+      "rows": []
+    },
+    {
+      "page": 33,
+      "rows": []
+    },
+    {
+      "page": 34,
+      "rows": []
+    },
+    {
+      "page": 35,
+      "rows": []
+    },
+    {
+      "page": 36,
+      "rows": []
+    },
+    {
+      "page": 37,
+      "rows": []
+    },
+    {
+      "page": 38,
+      "rows": []
+    },
+    {
+      "page": 39,
+      "rows": []
+    },
+    {
+      "page": 40,
+      "rows": []
+    },
+    {
+      "page": 41,
+      "rows": []
+    },
+    {
+      "page": 42,
+      "rows": []
+    },
+    {
+      "page": 43,
+      "rows": []
+    },
+    {
+      "page": 44,
+      "rows": []
+    },
+    {
+      "page": 45,
+      "rows": []
+    },
+    {
+      "page": 46,
+      "rows": []
+    },
+    {
+      "page": 47,
+      "rows": []
+    },
+    {
+      "page": 48,
+      "rows": []
+    },
+    {
+      "page": 49,
+      "rows": []
+    },
+    {
+      "page": 50,
+      "rows": []
+    },
+    {
+      "page": 51,
+      "rows": []
+    },
+    {
+      "page": 52,
+      "rows": []
+    },
+    {
+      "page": 53,
+      "rows": []
+    },
+    {
+      "page": 54,
+      "rows": [
+        {
+          "y": 4.62,
+          "cells": [
+            {
+              "x": 9.134,
+              "text": "PRUNING SHEAR"
+            },
+            {
+              "x": 27.246,
+              "text": "FILES"
+            }
+          ],
+          "line": "PRUNING SHEAR\tFILES"
+        },
+        {
+          "y": 14.23,
+          "cells": [
+            {
+              "x": 26.158,
+              "text": "ROUND FILE"
+            }
+          ],
+          "line": "ROUND FILE"
+        },
+        {
+          "y": 14.88,
+          "cells": [
+            {
+              "x": 10.168,
+              "text": "SHEARS"
+            }
+          ],
+          "line": "SHEARS"
+        },
+        {
+          "y": 23.04,
+          "cells": [
+            {
+              "x": 25.509,
+              "text": "HALF ROUND FILE"
+            }
+          ],
+          "line": "HALF ROUND FILE"
+        },
+        {
+          "y": 23.71,
+          "cells": [
+            {
+              "x": 7.131,
+              "text": "STIFF PUTTY KNIFE /SCRAPER"
+            }
+          ],
+          "line": "STIFF PUTTY KNIFE /SCRAPER"
+        },
+        {
+          "y": 31.7,
+          "cells": [
+            {
+              "x": 1.979,
+              "text": "Cutting"
+            },
+            {
+              "x": 6.596,
+              "text": "FLEXIBLE PUTTY KNIFE /SCRAPER"
+            },
+            {
+              "x": 26.024,
+              "text": "SQUARE FILE"
+            }
+          ],
+          "line": "Cutting\tFLEXIBLE PUTTY KNIFE /SCRAPER\tSQUARE FILE"
+        },
+        {
+          "y": 40.69,
+          "cells": [
+            {
+              "x": 8.623,
+              "text": "6-IN-1 MULTI-TOOL"
+            },
+            {
+              "x": 26.138,
+              "text": "3 PC FILE SET"
+            }
+          ],
+          "line": "6-IN-1 MULTI-TOOL\t3 PC FILE SET"
+        }
+      ]
+    },
+    {
+      "page": 55,
+      "rows": [
+        {
+          "y": 4.69,
+          "cells": [
+            {
+              "x": 10.085,
+              "text": "RASP"
+            },
+            {
+              "x": 25.33,
+              "text": "NEEDLE FILE SET"
+            }
+          ],
+          "line": "RASP\tNEEDLE FILE SET"
+        },
+        {
+          "y": 14.53,
+          "cells": [
+            {
+              "x": 8.193,
+              "text": "HALF ROUND RASP"
+            }
+          ],
+          "line": "HALF ROUND RASP"
+        },
+        {
+          "y": 23.72,
+          "cells": [
+            {
+              "x": 8.931,
+              "text": "ROUND RASP"
+            }
+          ],
+          "line": "ROUND RASP"
+        },
+        {
+          "y": 30.74,
+          "cells": [
+            {
+              "x": 36.858,
+              "text": "Cutting"
+            }
+          ],
+          "line": "Cutting"
+        },
+        {
+          "y": 32.52,
+          "cells": [
+            {
+              "x": 8.904,
+              "text": "3 PC RASP SET"
+            }
+          ],
+          "line": "3 PC RASP SET"
+        },
+        {
+          "y": 38.86,
+          "cells": [
+            {
+              "x": 25.793,
+              "text": "5 PC FILE SET"
+            }
+          ],
+          "line": "5 PC FILE SET"
+        },
+        {
+          "y": 42.84,
+          "cells": [
+            {
+              "x": 8.644,
+              "text": "CHAIN SAW FILE"
+            }
+          ],
+          "line": "CHAIN SAW FILE"
+        }
+      ]
+    },
+    {
+      "page": 56,
+      "rows": [
+        {
+          "y": 4.7,
+          "cells": [
+            {
+              "x": 9.066,
+              "text": "PICK & HOOK SET"
+            },
+            {
+              "x": 23.665,
+              "text": "SURFORM BLOCK PLANE - METAL"
+            }
+          ],
+          "line": "PICK & HOOK SET\tSURFORM BLOCK PLANE - METAL"
+        },
+        {
+          "y": 12.7,
+          "cells": [
+            {
+              "x": 24.603,
+              "text": "SURFORM FLAT FILE - ABS"
+            }
+          ],
+          "line": "SURFORM FLAT FILE - ABS"
+        },
+        {
+          "y": 13.43,
+          "cells": [
+            {
+              "x": 10.018,
+              "text": "SURFORM"
+            }
+          ],
+          "line": "SURFORM"
+        },
+        {
+          "y": 21.52,
+          "cells": [
+            {
+              "x": 24.551,
+              "text": "SURFORM STANDARD FILE"
+            }
+          ],
+          "line": "SURFORM STANDARD FILE"
+        },
+        {
+          "y": 23.46,
+          "cells": [
+            {
+              "x": 7.589,
+              "text": "SURFORM FLAT FILE - METAL"
+            }
+          ],
+          "line": "SURFORM FLAT FILE - METAL"
+        },
+        {
+          "y": 30.41,
+          "cells": [
+            {
+              "x": 24.012,
+              "text": "SURFORM BLOCK PLANE - ABS"
+            }
+          ],
+          "line": "SURFORM BLOCK PLANE - ABS"
+        },
+        {
+          "y": 32.05,
+          "cells": [
+            {
+              "x": 1.979,
+              "text": "Cutting"
+            }
+          ],
+          "line": "Cutting"
+        },
+        {
+          "y": 32.5,
+          "cells": [
+            {
+              "x": 6.39,
+              "text": "SURFORM STANDARD PLANE - METAL"
+            }
+          ],
+          "line": "SURFORM STANDARD PLANE - METAL"
+        },
+        {
+          "y": 38.56,
+          "cells": [
+            {
+              "x": 25.557,
+              "text": "SURFORM SHAVER"
+            }
+          ],
+          "line": "SURFORM SHAVER"
+        },
+        {
+          "y": 42.69,
+          "cells": [
+            {
+              "x": 8.404,
+              "text": "SURFORM ROUND FILE"
+            }
+          ],
+          "line": "SURFORM ROUND FILE"
+        }
+      ]
+    },
+    {
+      "page": 57,
+      "rows": [
+        {
+          "y": 4.67,
+          "cells": [
+            {
+              "x": 8.766,
+              "text": "WELD HAMMER"
+            },
+            {
+              "x": 24.553,
+              "text": "CROSS PEIN HAMMER"
+            }
+          ],
+          "line": "WELD HAMMER\tCROSS PEIN HAMMER"
+        },
+        {
+          "y": 13.95,
+          "cells": [
+            {
+              "x": 8.314,
+              "text": "DRILLING HAMMER"
+            }
+          ],
+          "line": "DRILLING HAMMER"
+        },
+        {
+          "y": 14.66,
+          "cells": [
+            {
+              "x": 24.78,
+              "text": "BALL PEIN HAMMER"
+            }
+          ],
+          "line": "BALL PEIN HAMMER"
+        },
+        {
+          "y": 22.9,
+          "cells": [
+            {
+              "x": 9.442,
+              "text": "CAMP AXE"
+            }
+          ],
+          "line": "CAMP AXE"
+        },
+        {
+          "y": 24.63,
+          "cells": [
+            {
+              "x": 24.78,
+              "text": "ANTI-VIBE HAMMER"
+            }
+          ],
+          "line": "ANTI-VIBE HAMMER"
+        },
+        {
+          "y": 31.29,
+          "cells": [
+            {
+              "x": 6.717,
+              "text": "BALL PEIN GRAPHITE HAMMER"
+            }
+          ],
+          "line": "BALL PEIN GRAPHITE HAMMER"
+        },
+        {
+          "y": 33.3,
+          "cells": [
+            {
+              "x": 22.888,
+              "text": "WOOD/FIBER GLASS NAIL HAMMER"
+            },
+            {
+              "x": 36.858,
+              "text": "Striking"
+            }
+          ],
+          "line": "WOOD/FIBER GLASS NAIL HAMMER\tStriking"
+        },
+        {
+          "y": 43.03,
+          "cells": [
+            {
+              "x": 23.652,
+              "text": "CLAW HAMMER STEEL SHAFT"
+            }
+          ],
+          "line": "CLAW HAMMER STEEL SHAFT"
+        }
+      ]
+    },
+    {
+      "page": 58,
+      "rows": [
+        {
+          "y": 4.7,
+          "cells": [
+            {
+              "x": 9.489,
+              "text": "DIN HAMMER"
+            },
+            {
+              "x": 24.205,
+              "text": "FIBERGLASS CLUB HAMMER"
+            }
+          ],
+          "line": "DIN HAMMER\tFIBERGLASS CLUB HAMMER"
+        },
+        {
+          "y": 14.7,
+          "cells": [
+            {
+              "x": 8.117,
+              "text": "CAMP AXE STEEL SHAFT"
+            },
+            {
+              "x": 25.02,
+              "text": "CARPENTER HAMMER"
+            }
+          ],
+          "line": "CAMP AXE STEEL SHAFT\tCARPENTER HAMMER"
+        },
+        {
+          "y": 22.25,
+          "cells": [
+            {
+              "x": 8.413,
+              "text": "SOFT FACE HAMMERS"
+            },
+            {
+              "x": 24.881,
+              "text": "ELECTRICIAN HAMMER"
+            }
+          ],
+          "line": "SOFT FACE HAMMERS\tELECTRICIAN HAMMER"
+        },
+        {
+          "y": 31.39,
+          "cells": [
+            {
+              "x": 25.784,
+              "text": "BRICK HAMMER"
+            }
+          ],
+          "line": "BRICK HAMMER"
+        },
+        {
+          "y": 32.43,
+          "cells": [
+            {
+              "x": 7.615,
+              "text": "SOFT FACE HAMMER HEADS"
+            }
+          ],
+          "line": "SOFT FACE HAMMER HEADS"
+        },
+        {
+          "y": 35.08,
+          "cells": [
+            {
+              "x": 1.979,
+              "text": "Striking"
+            }
+          ],
+          "line": "Striking"
+        },
+        {
+          "y": 40.92,
+          "cells": [
+            {
+              "x": 25.646,
+              "text": "SLEDGE HAMMER"
+            }
+          ],
+          "line": "SLEDGE HAMMER"
+        },
+        {
+          "y": 42.5,
+          "cells": [
+            {
+              "x": 6.816,
+              "text": "HEAVY-DUTY SOFT FACE HAMMER"
+            }
+          ],
+          "line": "HEAVY-DUTY SOFT FACE HAMMER"
+        }
+      ]
+    },
+    {
+      "page": 59,
+      "rows": [
+        {
+          "y": 4.64,
+          "cells": [
+            {
+              "x": 6.329,
+              "text": "COMPO-CAST HAMMER - TPU/TPR"
+            },
+            {
+              "x": 25.34,
+              "text": "WRECKING BAR"
+            }
+          ],
+          "line": "COMPO-CAST HAMMER - TPU/TPR\tWRECKING BAR"
+        },
+        {
+          "y": 10.45,
+          "cells": [
+            {
+              "x": 3.438,
+              "text": "57-530A"
+            },
+            {
+              "x": 4.768,
+              "text": "↓"
+            }
+          ],
+          "line": "57-530A ↓"
+        },
+        {
+          "y": 11,
+          "cells": [
+            {
+              "x": 3.438,
+              "text": "57-531A"
+            },
+            {
+              "x": 4.768,
+              "text": "↓"
+            }
+          ],
+          "line": "57-531A ↓"
+        },
+        {
+          "y": 11.55,
+          "cells": [
+            {
+              "x": 3.438,
+              "text": "57-532A"
+            },
+            {
+              "x": 4.768,
+              "text": "↓"
+            }
+          ],
+          "line": "57-532A ↓"
+        },
+        {
+          "y": 12.1,
+          "cells": [
+            {
+              "x": 3.438,
+              "text": "57-533A"
+            },
+            {
+              "x": 4.768,
+              "text": "↓"
+            }
+          ],
+          "line": "57-533A ↓"
+        },
+        {
+          "y": 12.59,
+          "cells": [
+            {
+              "x": 3.438,
+              "text": "↓"
+            },
+            {
+              "x": 3.747,
+              "text": "(Until Stock Lasts)"
+            }
+          ],
+          "line": "↓ (Until Stock Lasts)"
+        },
+        {
+          "y": 13.38,
+          "cells": [
+            {
+              "x": 25.583,
+              "text": "MOLDING BAR"
+            }
+          ],
+          "line": "MOLDING BAR"
+        },
+        {
+          "y": 14.19,
+          "cells": [
+            {
+              "x": 5.578,
+              "text": "COMPO-CAST HAMMER - POLYURETHANE"
+            }
+          ],
+          "line": "COMPO-CAST HAMMER - POLYURETHANE"
+        },
+        {
+          "y": 21.32,
+          "cells": [
+            {
+              "x": 24.766,
+              "text": "CHISELS & PUNCHES"
+            }
+          ],
+          "line": "CHISELS & PUNCHES"
+        },
+        {
+          "y": 24.65,
+          "cells": [
+            {
+              "x": 8.587,
+              "text": "RUBBER MALLET"
+            }
+          ],
+          "line": "RUBBER MALLET"
+        },
+        {
+          "y": 31.5,
+          "cells": [
+            {
+              "x": 25.27,
+              "text": "3 PIECE NAIL SET"
+            }
+          ],
+          "line": "3 PIECE NAIL SET"
+        },
+        {
+          "y": 32.94,
+          "cells": [
+            {
+              "x": 9.628,
+              "text": "PRY BAR"
+            }
+          ],
+          "line": "PRY BAR"
+        },
+        {
+          "y": 33.69,
+          "cells": [
+            {
+              "x": 36.858,
+              "text": "Striking"
+            }
+          ],
+          "line": "Striking"
+        },
+        {
+          "y": 43.11,
+          "cells": [
+            {
+              "x": 9.368,
+              "text": "CLAW BAR"
+            },
+            {
+              "x": 25.343,
+              "text": "FATMAX FUBAR"
+            }
+          ],
+          "line": "CLAW BAR\tFATMAX FUBAR"
+        }
+      ]
+    },
+    {
+      "page": 60,
+      "rows": [
+        {
+          "y": 4.7,
+          "cells": [
+            {
+              "x": 7.138,
+              "text": "BRICKSET CHISEL WITH GUARD"
+            },
+            {
+              "x": 25.896,
+              "text": "CENTER PUNCH"
+            }
+          ],
+          "line": "BRICKSET CHISEL WITH GUARD\tCENTER PUNCH"
+        },
+        {
+          "y": 11.72,
+          "cells": [
+            {
+              "x": 26.504,
+              "text": "PUNCH KIT"
+            }
+          ],
+          "line": "PUNCH KIT"
+        },
+        {
+          "y": 12.34,
+          "cells": [
+            {
+              "x": 7.103,
+              "text": "CONCRETE CHISEL WITH GUARD"
+            }
+          ],
+          "line": "CONCRETE CHISEL WITH GUARD"
+        },
+        {
+          "y": 20,
+          "cells": [
+            {
+              "x": 6.791,
+              "text": "ELECTRICIAN CHISEL WITH GUARD"
+            }
+          ],
+          "line": "ELECTRICIAN CHISEL WITH GUARD"
+        },
+        {
+          "y": 21.24,
+          "cells": [
+            {
+              "x": 25.064,
+              "text": "3 PC COLD CHISEL SET"
+            }
+          ],
+          "line": "3 PC COLD CHISEL SET"
+        },
+        {
+          "y": 28.35,
+          "cells": [
+            {
+              "x": 7.399,
+              "text": "MASON CHISEL WITH GUARD"
+            }
+          ],
+          "line": "MASON CHISEL WITH GUARD"
+        },
+        {
+          "y": 29.93,
+          "cells": [
+            {
+              "x": 26.175,
+              "text": "COLD CHISEL"
+            }
+          ],
+          "line": "COLD CHISEL"
+        },
+        {
+          "y": 35.08,
+          "cells": [
+            {
+              "x": 1.979,
+              "text": "Striking"
+            }
+          ],
+          "line": "Striking"
+        },
+        {
+          "y": 36.45,
+          "cells": [
+            {
+              "x": 9.291,
+              "text": "UTILITY CHISEL"
+            }
+          ],
+          "line": "UTILITY CHISEL"
+        },
+        {
+          "y": 40.9,
+          "cells": [
+            {
+              "x": 25.533,
+              "text": "WOOD CHISEL SET"
+            }
+          ],
+          "line": "WOOD CHISEL SET"
+        },
+        {
+          "y": 44.17,
+          "cells": [
+            {
+              "x": 9.256,
+              "text": "MASON CHISEL"
+            }
+          ],
+          "line": "MASON CHISEL"
+        }
+      ]
+    },
+    {
+      "page": 61,
+      "rows": [
+        {
+          "y": 4.7,
+          "cells": [
+            {
+              "x": 8.243,
+              "text": "SIDE STRIKE CHISEL"
+            },
+            {
+              "x": 26.388,
+              "text": "CLAMPS"
+            }
+          ],
+          "line": "SIDE STRIKE CHISEL\tCLAMPS"
+        },
+        {
+          "y": 11.68,
+          "cells": [
+            {
+              "x": 7.272,
+              "text": "BEVEL EDGE WOOD CHISEL"
+            }
+          ],
+          "line": "BEVEL EDGE WOOD CHISEL"
+        },
+        {
+          "y": 15.57,
+          "cells": [
+            {
+              "x": 25.919,
+              "text": "BENCH VICE"
+            }
+          ],
+          "line": "BENCH VICE"
+        },
+        {
+          "y": 23.29,
+          "cells": [
+            {
+              "x": 8.262,
+              "text": "FATMAX TRADELIFT"
+            }
+          ],
+          "line": "FATMAX TRADELIFT"
+        },
+        {
+          "y": 28.97,
+          "cells": [
+            {
+              "x": 23.974,
+              "text": "BENCH VICES (FIXED BASE)"
+            }
+          ],
+          "line": "BENCH VICES (FIXED BASE)"
+        },
+        {
+          "y": 36.69,
+          "cells": [
+            {
+              "x": 36.859,
+              "text": "Holding"
+            }
+          ],
+          "line": "Holding"
+        },
+        {
+          "y": 37.9,
+          "cells": [
+            {
+              "x": 3.417,
+              "text": "BDHT16695"
+            },
+            {
+              "x": 5.245,
+              "text": "↓"
+            }
+          ],
+          "line": "BDHT16695\t↓"
+        },
+        {
+          "y": 38.48,
+          "cells": [
+            {
+              "x": 3.417,
+              "text": "BDHT16696"
+            },
+            {
+              "x": 5.245,
+              "text": "↓"
+            }
+          ],
+          "line": "BDHT16696\t↓"
+        },
+        {
+          "y": 39.07,
+          "cells": [
+            {
+              "x": 3.417,
+              "text": "BDHT16697"
+            },
+            {
+              "x": 5.245,
+              "text": "↓"
+            }
+          ],
+          "line": "BDHT16697\t↓"
+        },
+        {
+          "y": 39.66,
+          "cells": [
+            {
+              "x": 3.417,
+              "text": "BDHT16938"
+            },
+            {
+              "x": 5.245,
+              "text": "↓"
+            }
+          ],
+          "line": "BDHT16938\t↓"
+        },
+        {
+          "y": 40.25,
+          "cells": [
+            {
+              "x": 3.167,
+              "text": "↓"
+            },
+            {
+              "x": 3.477,
+              "text": "(Until Stock Lasts)"
+            },
+            {
+              "x": 22.188,
+              "text": "MAXSTEEL® BENCH VICES - LIGHT-DUTY"
+            }
+          ],
+          "line": "↓ (Until Stock Lasts)\tMAXSTEEL® BENCH VICES - LIGHT-DUTY"
+        }
+      ]
+    },
+    {
+      "page": 62,
+      "rows": [
+        {
+          "y": 4.74,
+          "cells": [
+            {
+              "x": 7.9719999999999995,
+              "text": "HEAVY-DUTY BENCH VICE"
+            },
+            {
+              "x": 22.807,
+              "text": "FATMAX TRIGGER CLAMP - XTRA LARGE"
+            }
+          ],
+          "line": "HEAVY-DUTY BENCH VICE\tFATMAX TRIGGER CLAMP - XTRA LARGE"
+        },
+        {
+          "y": 16.76,
+          "cells": [
+            {
+              "x": 9.188,
+              "text": "TRIGGER CLAMP"
+            },
+            {
+              "x": 24.665,
+              "text": "METAL-WORKING CLAMP"
+            }
+          ],
+          "line": "TRIGGER CLAMP\tMETAL-WORKING CLAMP"
+        },
+        {
+          "y": 26.64,
+          "cells": [
+            {
+              "x": 5.491,
+              "text": "FATMAX TRIGGER CLAMP - SMALL / MEDIUM"
+            },
+            {
+              "x": 24.96,
+              "text": "HEAVY-DUTY F- CLAMP"
+            }
+          ],
+          "line": "FATMAX TRIGGER CLAMP - SMALL / MEDIUM\tHEAVY-DUTY F- CLAMP"
+        },
+        {
+          "y": 38.08,
+          "cells": [
+            {
+              "x": 1.979,
+              "text": "Holding"
+            }
+          ],
+          "line": "Holding"
+        },
+        {
+          "y": 39.12,
+          "cells": [
+            {
+              "x": 6.914,
+              "text": "FATMAX TRIGGER CLAMP - LARGE"
+            }
+          ],
+          "line": "FATMAX TRIGGER CLAMP - LARGE"
+        }
+      ]
+    },
+    {
+      "page": 63,
+      "rows": [
+        {
+          "y": 4.66,
+          "cells": [
+            {
+              "x": 8.801,
+              "text": "HYBRID CLAMP"
+            },
+            {
+              "x": 24.63,
+              "text": "LIFTING SUCTION CUP"
+            }
+          ],
+          "line": "HYBRID CLAMP\tLIFTING SUCTION CUP"
+        },
+        {
+          "y": 16.53,
+          "cells": [
+            {
+              "x": 9.031,
+              "text": "BAND CLAMP"
+            },
+            {
+              "x": 24.261,
+              "text": "ESSENTIAL WORKBENCH"
+            }
+          ],
+          "line": "BAND CLAMP\tESSENTIAL WORKBENCH"
+        },
+        {
+          "y": 26.89,
+          "cells": [
+            {
+              "x": 8.666,
+              "text": "CORNER CLAMP"
+            }
+          ],
+          "line": "CORNER CLAMP"
+        },
+        {
+          "y": 36.69,
+          "cells": [
+            {
+              "x": 36.858,
+              "text": "Holding"
+            }
+          ],
+          "line": "Holding"
+        }
+      ]
+    },
+    {
+      "page": 64,
+      "rows": []
+    },
+    {
+      "page": 65,
+      "rows": []
+    },
+    {
+      "page": 66,
+      "rows": []
+    },
+    {
+      "page": 67,
+      "rows": []
+    },
+    {
+      "page": 68,
+      "rows": []
+    },
+    {
+      "page": 69,
+      "rows": []
+    },
+    {
+      "page": 70,
+      "rows": []
+    },
+    {
+      "page": 71,
+      "rows": []
+    },
+    {
+      "page": 72,
+      "rows": []
+    },
+    {
+      "page": 73,
+      "rows": []
+    },
+    {
+      "page": 74,
+      "rows": []
+    },
+    {
+      "page": 75,
+      "rows": []
+    },
+    {
+      "page": 76,
+      "rows": []
+    },
+    {
+      "page": 77,
+      "rows": []
+    },
+    {
+      "page": 78,
+      "rows": []
+    },
+    {
+      "page": 79,
+      "rows": []
+    },
+    {
+      "page": 80,
+      "rows": []
+    },
+    {
+      "page": 81,
+      "rows": []
+    },
+    {
+      "page": 82,
+      "rows": []
+    },
+    {
+      "page": 83,
+      "rows": []
+    },
+    {
+      "page": 84,
+      "rows": []
+    },
+    {
+      "page": 85,
+      "rows": []
+    },
+    {
+      "page": 86,
+      "rows": []
+    },
+    {
+      "page": 87,
+      "rows": []
+    },
+    {
+      "page": 88,
+      "rows": []
+    },
+    {
+      "page": 89,
+      "rows": []
+    },
+    {
+      "page": 90,
+      "rows": []
+    },
+    {
+      "page": 91,
+      "rows": []
+    },
+    {
+      "page": 92,
+      "rows": []
+    },
+    {
+      "page": 93,
+      "rows": []
+    },
+    {
+      "page": 94,
+      "rows": []
+    },
+    {
+      "page": 95,
+      "rows": []
+    },
+    {
+      "page": 96,
+      "rows": []
+    },
+    {
+      "page": 97,
+      "rows": []
+    },
+    {
+      "page": 98,
+      "rows": []
+    },
+    {
+      "page": 99,
+      "rows": []
+    },
+    {
+      "page": 100,
+      "rows": []
+    },
+    {
+      "page": 101,
+      "rows": []
+    },
+    {
+      "page": 102,
+      "rows": []
+    },
+    {
+      "page": 103,
+      "rows": []
+    },
+    {
+      "page": 104,
+      "rows": []
+    },
+    {
+      "page": 105,
+      "rows": []
+    },
+    {
+      "page": 106,
+      "rows": []
+    },
+    {
+      "page": 107,
+      "rows": []
+    },
+    {
+      "page": 108,
+      "rows": []
+    },
+    {
+      "page": 109,
+      "rows": []
+    },
+    {
+      "page": 110,
+      "rows": []
+    },
+    {
+      "page": 111,
+      "rows": []
+    },
+    {
+      "page": 112,
+      "rows": []
+    },
+    {
+      "page": 113,
+      "rows": []
+    },
+    {
+      "page": 114,
+      "rows": []
+    },
+    {
+      "page": 115,
+      "rows": []
+    },
+    {
+      "page": 116,
+      "rows": []
+    }
+  ]
+}
